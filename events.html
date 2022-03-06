@@ -1,0 +1,1820 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Hongta Yang</title>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    <link rel="stylesheet" type="text/css" href="fatsbook.css">
+</head>
+<body>
+    <!--Header-->
+    <div class="header">
+        <!--Header-Left-->
+        <div id="divHeaderLogo" style="padding-left:30px; padding-top:7px; float:left;">
+            <a href="index.html" style="text-decoration:none; color:white; font:bolder 22px verdana;">fatsbook</a>
+        </div>
+        <div id="divHeaderRequests" style="float:left; padding-left:12px; padding-top:10px;">
+            <a href="#"><img src="images/icons/requests.png" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divHeaderMessages" style="float:left; padding-left:5px; padding-top:10px;">
+            <a href="#"><img src="images/icons/messages.png" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divHeaderUpdates" style="float:left; padding-left:5px; padding-top:10px;">
+            <a href="#"><img src="images/icons/updates.png" style="border-style:none; border:0px;" /></a>
+        </div>
+
+        <!--Header-Center-->
+        <input id="txtSearch" type="text" style="margin-left:26px; margin-top:9px; width:350px; padding:2px 0px 2px 3px; 
+                                                 font:normal 11px arial; color:#777777; float:left;" />
+        <a href="javascript:search();"><img src="images/icons/search.png" style="float:left; margin-top:9px; border:0px; border-style:none;" /></a>
+
+        <!--Header-Right-->
+        <div id="divHeaderTools" style="margin-right:15px; padding-top:10px; float:right;">
+            <a href="#"><img src="images/icons/tools.png" width="24px" height="25px" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divBar3" style="padding-right:1px; padding-top:13px; float:right; color:#526DA4; font:normal 16px arial;">|</div>
+        <div id="divHeaderLogout" style="padding-right:1px; padding-top:10px; float:right;">
+            <a href="#"><img src="images/icons/logout.png" width="25px" height="25px" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divBar2" style="padding-right:2px; padding-top:13px; float:right; color:#526DA4; font:normal 16px arial;">|</div>
+        <div id="divHeaderHome" style="padding-right:8px; padding-top:12px; float:right;">
+            <a href="index.html" style="text-decoration:none; color:white; font:bolder 12px arial;">Home</a>
+        </div>
+        <div id="divBar1" style="padding-right:8px; padding-top:13px; float:right; color:#526DA4; font:normal 16px arial;">|</div>
+        <div id="divHeaderName" style="padding-right:8px; padding-top:12px; float:right;">
+            <a href="hyang.html" style="text-decoration:none; color:white; font:bolder 12px arial;">Hongta Yang</a>
+        </div>
+        <div id="divHeaderProfile" style="padding-right:8px; padding-top:12px; float:right;">
+            <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="22px" height="22px" style="border-style:none; border:0px;" /></a>
+        </div>
+    </div>
+
+    <!--Body-->
+    <div id="divBody" style="border-top:solid 1px #D3D3D3; width:100%; padding-top:38px;">
+        <!--Body-Left-->
+        <div id="divBodyLeft" style="height:100%; min-height:21100px; width:220px; border-right:solid 1px #D3D3D3; float:left; padding-top:20px; padding-left:30px;">
+            <div id="divHyangImg" style="float:left;">
+                <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="50px" height="50px" style="border-style:none; border:0px;" /></a>
+            </div>
+            <div id="divHyangName" style="float:left; padding-top:17px; padding-left:10px;">
+                <a href="hyang.html" style="text-decoration:none; color:#3B59A4; font:bolder 12px arial;">Hongta Yang</a>
+            </div>
+
+            <div id="divList" style="padding-top:60px; color:#999999; font:bolder 11px arial; padding-left:0px;">
+                <!--FAVORITES-->
+                <div>FAVORITES</div>
+                <table cellpadding="0px" cellspacing="0px" style="margin-top:6px;">
+                    <tr><!--News Feed-->
+                        <td><a href="index.html"><img src="images/icons/newfeed.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="index.html" style="text-decoration:none; color:black; font:bold 12px arial;">News Feed</a></td>
+                        <td style="padding-left:75px; color:#3B59A4; font-weight:bolder;"><span style="background-color:#D8DFEA;">&nbsp;&nbsp;8&nbsp;&nbsp;</span></td>
+                    </tr>
+                    <tr><!--Messages-->
+                        <td><a href="message.html"><img src="images/icons/messages_white.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="message.html" style="text-decoration:none; color:black; font:normal 11px arial;">Messages</a></td>
+                    </tr>
+                    <tr><!--Events-->
+                        <td><a href="events.html"><img src="images/icons/addphotoes.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="events.html" style="text-decoration:none; color:black; font:normal 11px arial;">Events & Photos</a></td>
+                    </tr>
+                    <!--<tr>--><!--Photos-->
+                        <!--<td><a href="#"><img src="images/icons/addphotoes.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="#" style="text-decoration:none; color:black; font:normal 11px arial;">Photos</a></td>
+                    </tr>-->
+                    <tr><!--Research Interests-->
+                        <td><a href="#"><img src="images/icons/job.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="hyangRP.html" style="text-decoration:none; color:black; font:normal 11px arial;">Research Interests</a></td>
+                    </tr>
+                </table>
+
+                <!--FRIENDS-->
+                <div style="padding-top:10px;">FRIENDS</div>
+                <table cellpadding="0px" cellspacing="0px" style="margin-top:6px; margin-left:3px;">
+                    <tr><!--Hongta Yang-->
+                        <td><a href="hyang.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="hyang.html" style="text-decoration:none; color:black; font:normal 11px arial;">Hongta Yang</a></td>
+                        <td style="padding-left:106px; color:#3B59A4; font-weight:bolder;"><span style="background-color:#D8DFEA;">&nbsp;&nbsp;6&nbsp;&nbsp;</span></td>
+                    </tr>
+                </table>
+
+                <!--COURSES-->
+                <div style="padding-top:10px;">COURSES</div>
+                <table cellpadding="0px" cellspacing="0px" style="margin-top:6px;">
+                    <tr><!--Course: Introduction to Chemical Engineering-->
+                        <td><a href="courses/che1300/Intro2ChemicalEngineering.html"><img src="images/icons/courses.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="courses/che1300/Intro2ChemicalEngineering.html"" style="text-decoration:none; color:black; font:normal 11px arial;">Intro to Chemical Engineering</a></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr><!--Course: Introduction to Polymer Science-->
+                        <td><a href="courses/che3426/Intro2PolymerScience.html"><img src="images/icons/courses.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="courses/che3426/Intro2PolymerScience.html" style="text-decoration:none; color:black; font:normal 11px arial;">Intro to Polymer Science</a></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr><!--Course: Colloid & Surface Chemistry-->
+                        <td><a href="courses/che3439/ColloidSurfaceChemistry.html"><img src="images/icons/courses.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="courses/che3439/ColloidSurfaceChemistry.html" style="text-decoration:none; color:black; font:normal 11px arial;">Colloid & Surface Chemistry</a></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr><!--Course: Polymer Synthesis-->
+                        <td><a href="courses/che4197/PolymerSynthesis.html"><img src="images/icons/courses.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="courses/che4197/PolymerSynthesis.html" style="text-decoration:none; color:black; font:normal 11px arial;">Polymer Synthesis</a></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr><!--Course: Developments and Applications of Nanostructured Materials-->
+                        <td><a href="courses/che6842/NanoMaterialsDevApp.html"><img src="images/icons/courses.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="courses/che6842/NanoMaterialsDevApp.html" style="text-decoration:none; color:black; font:normal 11px arial;">Devs & Apps of Nano Materials</a></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr><!--Course: Transport Phenomena-->
+                        <td><a href="courses/che3475/Transport Phenomena.html"><img src="images/icons/courses.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="courses/che3475/Transport Phenomena.html" style="text-decoration:none; color:black; font:normal 11px arial;">Transport Phenomena</a></td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr><!--Course: Thermodynamics-->
+                        <td><a href="courses/che3427/Thermodynamics.html"><img src="images/icons/courses.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="courses/che3427/Thermodynamics.html" style="text-decoration:none; color:black; font:normal 11px arial;">Thermodynamics</a></td>
+                        <td style="padding-left:16px; color:#3B59A4; font-weight:bolder;"><span style="background-color:#D8DFEA;">&nbsp;&nbsp;1&nbsp;&nbsp;</span></td>
+                    </tr>
+                </table>
+
+                <!--GROUPS-->
+                <div style="padding-top:10px;">GROUPS</div>
+                <table cellpadding="0px" cellspacing="0px" style="margin-top:6px;">
+                    <tr><!--Family-->
+                        <td><a href="family.html"><img src="images/icons/family.png" style="border-style:none; border:0px;" /></a></td>
+                        <td colspan="2"><a href="family.html" style="text-decoration:none; color:black; font:normal 11px arial;">Family</a></td>
+                        <td style="padding-left:60px; color:#3B59A4; font-weight:bolder;"><span style="background-color:#D8DFEA;">&nbsp;&nbsp;3&nbsp;&nbsp;</span></td>
+                    </tr>
+                    <tr><!--Research Group-->
+                        <td><a href="#"><img src="images/icons/groups.png" style="border-style:none; border:0px;" /></a></td>
+                        <td colspan="2"><a href="#" style="text-decoration:none; color:black; font:normal 11px arial;">Research Group</a></td>
+                        <!--<td style="padding-left:60px; color:#3B59A4; font-weight:bolder;"><span style="background-color:#D8DFEA;">&nbsp;&nbsp;4&nbsp;&nbsp;</span></td>-->
+                    </tr>
+					<tr><!--Chien-Hua Pan-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/chpan.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/chpan.html" style="text-decoration:none; color:black; font:normal 11px arial;">Chien-Hua Pan</a></td>
+                    </tr>
+					<tr><!--Chih-Wei Lei-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/cwlei.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/cwlei.html" style="text-decoration:none; color:black; font:normal 11px arial;">Chih-Wei Lei</a></td>
+                    </tr>
+					<tr><!--Hsin-Yu Tseng-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/hytseng.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/hytseng.html" style="text-decoration:none; color:black; font:normal 11px arial;">Hsin-Yu Tseng</a></td>
+                    </tr>
+					<tr><!--Meng-Shan Shih-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/msshih.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/msshih.html" style="text-decoration:none; color:black; font:normal 11px arial;">Meng-Shan Shih</a></td>
+                    </tr>
+					<tr><!--Min-Fang Wu-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/mfwu.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/mfwu.html" style="text-decoration:none; color:black; font:normal 11px arial;">Min-Fang Wu</a></td>
+                    </tr>
+					<tr><!--Shu-Chiao Liao-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/scliao.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/scliao.html" style="text-decoration:none; color:black; font:normal 11px arial;">Shu-Chiao Liao</a></td>
+                    </tr>
+                    <tr><!--Yi-Ping Wu-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/ypwu.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/ypwu.html" style="text-decoration:none; color:black; font:normal 11px arial;">Yi-Ping Wu</a></td>
+                    </tr>
+                    <tr><!--Yi-Xiu Chen-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/yxchen.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/yxchen.html" style="text-decoration:none; color:black; font:normal 11px arial;">Yi-Xiu Chen</a></td>
+                    </tr>
+                    <tr><!--Yi-Xuan He-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/yxhe.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/yxhe.html" style="text-decoration:none; color:black; font:normal 11px arial;">Yi-Xuan He</a></td>
+                    </tr>
+                    <tr><!--Research Group (Under)-->
+                        <td><a href="#"><img src="images/icons/groups.png" style="border-style:none; border:0px;" /></a></td>
+                        <td colspan="3"><a href="#" style="text-decoration:none; color:black; font:normal 11px arial;">Research Group - Undergraduate</a></td>
+                        <!--<td style="padding-left:60px; color:#3B59A4; font-weight:bolder;"><span style="background-color:#D8DFEA;">&nbsp;&nbsp;1&nbsp;&nbsp;</span></td>-->
+                    </tr>
+                    <tr><!--Bao-Chen Lee-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/bclee.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/bclee.html" style="text-decoration:none; color:black; font:normal 11px arial;">Bao-Chen Lee</a></td>
+                    </tr>
+					<tr><!--Ching-Fang Su-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/cfsu.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/cfsu.html" style="text-decoration:none; color:black; font:normal 11px arial;">Ching-Fang Su</a></td>
+                    </tr>
+                    <tr><!--Wei-Fu Tseng-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/wftseng.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/wftseng.html" style="text-decoration:none; color:black; font:normal 11px arial;">Wei-Fu Tseng</a></td>
+                    </tr>
+                    <tr><!--Yi-Tzu Chen-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/ytchen.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/ytchen.html" style="text-decoration:none; color:black; font:normal 11px arial;">Yi-Tzu Chen</a></td>
+                    </tr>
+                    <tr><!--Research Group (Alumni)-->
+                        <td><a href="#"><img src="images/icons/groups.png" style="border-style:none; border:0px;" /></a></td>
+                        <td colspan="3"><a href="#" style="text-decoration:none; color:black; font:normal 11px arial;">Research Group - Alumni</a></td>
+                        <!--<td style="padding-left:60px; color:#3B59A4; font-weight:bolder;"><span style="background-color:#D8DFEA;">&nbsp;&nbsp;1&nbsp;&nbsp;</span></td>-->
+                    </tr>
+                    <tr><!--Chang-Yun Cai-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/alumnigrad/cycai.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:black; font:normal 11px arial;">Chang-Yun Cai</a></td>
+                    </tr>
+					<tr><!--Chen-Yu Chien-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/cychien.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/cychien.html" style="text-decoration:none; color:black; font:normal 11px arial;">Chen-Yu Chien</a></td>
+                    </tr>
+					<tr><!--Cheng-Yen Lin-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/cylin2.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/cylin2.html" style="text-decoration:none; color:black; font:normal 11px arial;">Cheng-Yen Lin</a></td>
+                    </tr>
+                    <tr><!--Chien-Fu Chiu-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/cfchiu.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/cfchiu.html" style="text-decoration:none; color:black; font:normal 11px arial;">Chien-Fu Chiu</a></td>
+                    </tr>
+                    <tr><!--Kuan-Yi Tsao-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/alumnigrad/kytsao.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/alumnigrad/kytsao.html" style="text-decoration:none; color:black; font:normal 11px arial;">Kuan-Yi Tsao</a></td>
+                    </tr>
+					<tr><!--Shi-Hui Hong-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/shhong.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/shhong.html" style="text-decoration:none; color:black; font:normal 11px arial;">Shi-Hui Hong</a></td>
+                    </tr>
+					<tr><!--Tung-Wei Yang-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/twyang.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/twyang.html" style="text-decoration:none; color:black; font:normal 11px arial;">Tung-Wei Yang</a></td>
+                    </tr>
+					<tr><!--Tzu-Han Li-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/alumnigrad/thli.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/alumnigrad/thli.html" style="text-decoration:none; color:black; font:normal 11px arial;">Tzu-Han Li</a></td>
+                    </tr>
+                    <tr><!--Ya-Ling Ko-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/alumnigrad/ylko.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/alumnigrad/ylko.html" style="text-decoration:none; color:black; font:normal 11px arial;">Ya-Ling Ko</a></td>
+                    </tr>
+                    <tr><!--Yueh-Hsun Wu-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/yhwu.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/yhwu.html" style="text-decoration:none; color:black; font:normal 11px arial;">Yueh-Hsun Wu</a></td>
+                    </tr>
+					<tr><!--Yi-Han Lin-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/yhlin.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/yhlin.html" style="text-decoration:none; color:black; font:normal 11px arial;">Yi-Han Lin</a></td>
+                    </tr>
+					<tr><!--Ying-Chu Chen-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/graduate/ycchen.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/graduate/ycchen.html" style="text-decoration:none; color:black; font:normal 11px arial;">Ying-Chu Chen</a></td>
+                    </tr>
+                    <tr><!--Zhe-Sheng Huang-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/alumnigrad/zshuang.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/alumnigrad/zshuang.html" style="text-decoration:none; color:black; font:normal 11px arial;">Zhe-Sheng Huang</a></td>
+                    </tr>
+                    <tr><!--Research Group (Alumni Under)-->
+                        <td><a href="#"><img src="images/icons/groups.png" style="border-style:none; border:0px;" /></a></td>
+                        <td colspan="3"><a href="#" style="text-decoration:none; color:black; font:normal 11px arial;">Research Group - Alumni Under</a></td>
+                        <!--<td style="padding-left:60px; color:#3B59A4; font-weight:bolder;"><span style="background-color:#D8DFEA;">&nbsp;&nbsp;1&nbsp;&nbsp;</span></td>-->
+                    </tr>
+					<tr><!--Cheng-Yu Lin-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/cylin.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/cylin.html" style="text-decoration:none; color:black; font:normal 11px arial;">Cheng-Yu Lin</a></td>
+                    </tr>
+					<tr><!--Jou-Ling Chiu-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/jlchiu.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/jlchiu.html" style="text-decoration:none; color:black; font:normal 11px arial;">Jou-Ling Chiu</a></td>
+                    </tr>
+                    <tr><!--Ling-Chen Hsiang-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/lchsiang.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/lchsiang.html" style="text-decoration:none; color:black; font:normal 11px arial;">Ling-Chen Hsiang</a></td>
+                    </tr>
+                    <tr><!--Ruei Leung-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/alumniunder/rleung.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/alumniunder/rleung.html" style="text-decoration:none; color:black; font:normal 11px arial;">Ruei Leung</a></td>
+                    </tr>
+                    <tr><!--Shih-Yi Wang-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/sywang.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/sywang.html" style="text-decoration:none; color:black; font:normal 11px arial;">Shih-Yi Wang</a></td>
+                    </tr>
+                    <tr><!--Sin-Yun Yang-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/syyang.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/syyang.html" style="text-decoration:none; color:black; font:normal 11px arial;">Sin-Yun Yang</a></td>
+                    </tr>
+                    <tr><!--Xing-Jun Ke-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/xjke.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/xjke.html" style="text-decoration:none; color:black; font:normal 11px arial;">Xing-Jun Ke</a></td>
+                    </tr>
+                    <tr><!--Ya-Yun Jiang-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/yyjiang.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/yyjiang.html" style="text-decoration:none; color:black; font:normal 11px arial;">Ya-Yun Jiang</a></td>
+                    </tr>
+                    <tr><!--Yi-Ning Chiang-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/ynchiang.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/ynchiang.html" style="text-decoration:none; color:black; font:normal 11px arial;">Yi-Ning Chiang</a></td>
+                    </tr>
+					<tr><!--Yi-Wen Tsai-->
+                        <td>&nbsp;</td>
+                        <td><a href="researchgroup/undergraduate/ywtsai.html"><img src="images/icons/friends.png" style="border-style:none; border:0px;" /></a></td>
+                        <td><a href="researchgroup/undergraduate/ywtsai.html" style="text-decoration:none; color:black; font:normal 11px arial;">Yi-Wen Tsai</a></td>
+                    </tr>
+                    <tr><!--Create Group...-->
+                        <td><a href="#"><img src="images/icons/creategroup.png" style="border-style:none; border:0px;" /></a></td>
+                        <td colspan="2"><a href="#" style="text-decoration:none; color:black; font:normal 11px arial;">Create Group...</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--Body-Center-->
+        <div id="divBodyCenter" style="height:100%; min-height:21100px; width:600px; float:left; padding-top:20px; padding-left:20px;">
+            <!--Body-Center: Logos-->
+            <div id="divBodyCenterUpdateStatusIcon" style="float:left;">
+                <a href="#"><img src="images/icons/updatestatus.png" style="border-style:none; border:0px;" /></a>
+            </div>
+            <div id="divBodyCenterUpdateStatus" style="float:left; padding-left:2px; padding-top:3px;">
+                <a href="#" style="text-decoration:none; color:black; font:bolder 12px arial;">Update Status</a>
+            </div>
+            <div id="divBodyCenterAddPhotosIcon" style="float:left; padding-left:5px;">
+                <a href="#"><img src="images/icons/addphotoes.png" style="border-style:none; border:0px;" /></a>
+            </div>
+            <div id="divBodyCenterAddPhotos" style="float:left; padding-left:2px; padding-top:3px;">
+                <a href="#" style="text-decoration:none; color:#3B5998; font:bolder 12px arial;">Add Photos/Video</a>
+            </div><br />
+
+            <!--Body-Center: Update Status-->
+            <input id="txtUpdateStatus" type="text" style="margin-left:5px; margin-top:5px; margin-bottom:7px; width:550px; height:23px;
+                padding:2px 0px 2px 8px; font:normal 13px arial; color:#777777; float:left;" /><br />
+
+            <!--Body-Center: Sort-->
+            <div id="divBodyCenterSort" style="float:left; margin-left:480px; padding-left:2px; padding-top:3px;">
+                <a href="#" style="text-decoration:none; color:#808080; font:bold 10px verdana;">SORT</a>
+            </div>
+            <div id="divBodyCenterSortIcon" style="float:left; padding-left:3px; padding-top:4px;">
+                <a href="#"><img src="images/icons/sort.png" style="border-style:none; border:0px;" /></a>
+            </div><br /><br /><br /><br />
+
+            <div id="divNewsFeed" style="display:block;">
+                <!--yyang today-->
+
+
+
+                <!--Body-Center: News: 2014 PASCO Cup-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div><div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 2 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends 
+                    <a href="http://education.kyst.com.tw/pascocup/2014/" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        2014 PASCO Cup 國際科學實驗競賽.</a><br />
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a>, 
+                    <a href="researchgroup/undergraduate/lchsiang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Ling-Chen</a>, 
+                    <a href="researchgroup/graduate/twyang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Tung-Wei</a> and 
+                    <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Sin-Jhe</a> 
+                    present "多孔性高分子薄膜之光穿透度量測".
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014pascocup-1.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014pascocup-2.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        November 9 at 9:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: 2014 TwiCheMeeting-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 6 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends 
+                    <a href="http://action.che.yzu.edu.tw/actions.php?id=51" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        2014 台灣化學工程學會 61 週年年會暨科技部化學工程學門成果發表會.</a><br />
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a>, 
+                    <a href="researchgroup/alumnigrad/ylko.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Ya-Ling</a>, 
+                    <a href="researchgroup/undergraduate/lchsiang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Ling-Chen</a> and 
+                    <a href="researchgroup/alumnigrad/thli.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Tzu-Han</a> 
+                    present "Scalable Fabrication of Superhydrophobic Anti-ultraviolet Films" with an oral presentation and a poster.<br />
+                    <a href="researchgroup/alumnigrad/zshuang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Zhe-Sheng</a>, 
+                    <a href="researchgroup/graduate/yhwu.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Yueh-Hsun</a> and 
+                    <a href="researchgroup/graduate/twyang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Tung-Wei</a> 
+                    present "Self-Assembled Moth-Eye Antireflection Coatings" with an oral presentation and a poster.<br />
+                    <a href="researchgroup/alumnigrad/kytsao.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Kuan-Yi</a>, 
+                    <a href="researchgroup/graduate/cylin2.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Cheng-Yen</a> and 
+                    <a href="researchgroup/undergraduate/cylin.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Cheng-Yu</a> 
+                    present "Bioinspired Retroreflection Coatings" with a poster.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        Yuan Ze University, Taoyuan, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014twichemeeting-1.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014twichemeeting-2.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014twichemeeting-3.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014twichemeeting-4.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014twichemeeting-5.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014twichemeeting-6.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        December 16 at 9:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: 2014 RCTF - LCHsiang.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 3 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends 
+                    <a href="http://www.engineer.nchu.edu.tw/~rctf/news_detail.php?cid=3&id=16" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        中興大學工學院紡織與纖維研究中心-大專學生研究計畫成果展.</a><br />
+                    <a href="researchgroup/undergraduate/lchsiang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Ling-Chen</a> 
+                    presents "仿紋白蝶抗 UV 自潔纖維之製備與應用" with a poster.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Chung Hsing University, Taichugn, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014RCTF-1.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014RCTF-2.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014RCTF-3.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        November 19 at 3:30pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: 2014 ISNST.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 3 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends 
+                    <a href="http://news.stust.edu.tw/User/ENewsPaperContent.aspx?pid=1977" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        2014 International Symposium on Nano Science and Technology</a>.<br />
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a> 
+                        presents "Scalable Fabrication of Superhydrophobic Anti-ultraviolet Films" with a poster.<br />
+                    <a href="researchgroup/alumnigrad/zshuang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Zhe-Sheng</a> 
+                        presents "Self-Assembled Moth-Eye Antireflection Coatings" with a poster.<br /> 
+                    <a href="researchgroup/alumnigrad/kytsao.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Kuan-Yi</a>  
+                        presents "Bioinspired Retroreflection Coatings" with a poster.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        Southern Taiwan University of Science and Technology, Tainan, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014ISNST-1.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014ISNST-2.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014ISNST-3.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        November 18 at 9:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group attends 2014 TECO Green Tech Contest.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 2 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends <a href="http://www.tecofound.org.tw/greentech-contest/2014/" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                         2014 TECO Green Tech Contest (2014 東元科技創意競賽)</a>.<br />
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a>, 
+                    <a href="researchgroup/undergraduate/lchsiang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Ling-Chen</a> and 
+                    <a href="researchgroup/alumnigrad/thli.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Tzu-Han</a> 
+                        present "Photonic Crystal-Based Smart Windows Fabricated by Doctor Blade Coating."
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Taiwan Science Education Center, Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014TECO-presentation1.JPG" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014TECO-presentation2.JPG" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        August 26 at 8:30am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group attends 2014 TECO Green Tech Contest.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 2 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends <a href="http://www.tecofound.org.tw/greentech-contest/2014/" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                         2014 TECO Green Tech Contest (2014 東元科技創意競賽)</a>.<br />
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a>, 
+                    <a href="researchgroup/undergraduate/lchsiang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Ling-Chen</a> and 
+                    <a href="researchgroup/alumnigrad/thli.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Tzu-Han</a> 
+                        win Best Technology Award (東友科技獎), Finalists Certificates (佳作) and Entry Award (入圍總決賽獎).
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Taiwan Science Education Center, Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014TECO-awards1.JPG" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014TECO-awards2.JPG" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        August 26 at 8:30am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group attends 2014 TECO Green Tech Contest.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 2 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends <a href="http://www.tecofound.org.tw/greentech-contest/2014/" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                         2014 TECO Green Tech Contest (2014 東元科技創意競賽)</a>.<br />
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a>, 
+                    <a href="researchgroup/undergraduate/lchsiang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Ling-Chen</a> and 
+                    <a href="researchgroup/alumnigrad/thli.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Tzu-Han</a> 
+                        present "Photonic Crystal-Based Smart Windows Fabricated by Doctor Blade Coating."
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Taiwan Science Education Center, Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014TECO-presentation1.JPG" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014TECO-presentation2.JPG" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        August 26 at 8:30am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group attends 2014 Micro Nano Sys Tech Conf.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends <a href="http://mech.stust.edu.tw/sysid/mech/NMC2014/File/%E8%AB%96%E6%96%87%E5%AF%A9%E6%9F%A5%E7%B5%90%E6%9E%9C%E5%85%AC%E5%91%8A.pdf" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                         2014 Micro & Nano System Technology Conference (奈米工程暨微系統技術研討會)</a>.<br />
+                    <a href="researchgroup/alumnigrad/zshuang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Zhe-Sheng</a> 
+                        presents "仿蛾眼抗反射塗佈".
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        Southern Taiwan University of Science and Technology, Tainan, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014MicroNano-zshuang.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        August 22 at 2:00pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Ghosts' Festival.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends Ghosts' Festival on 15th day of the 7th lunar month.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Chung Hsing University, Taichung, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014GhostsFestival.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        August 8 at 4:00pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: 2014 CCIS Outstanding Award of Poster.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a>, 
+                    <a href="researchgroup/undergraduate/lchsiang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Ling-Chen</a> and 
+                    <a href="researchgroup/alumnigrad/thli.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Tzu-Han</a> 
+                    win Outstanding Award of Poster Competition (2014 中華民國界面科學學會年會暨論文發表會 佳作) 
+                        "刮刀塗佈抗紫外線透明薄膜" with a poster at
+                    <a href="http://myweb.ncku.edu.tw/~n38981020/interface2013/index.htm" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        2014 Chinese Colloid and Interface Society Conference (中華民國界面科學學會年會暨論文發表會)</a>.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Cheng Kung University, Tainan, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014CCIS-cycai.JPG" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        July 11 at 5:00pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group attends 2014 CCIS.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 3 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends <a href="http://myweb.ncku.edu.tw/~n38981020/interface2013/index.htm" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                         2014 Chinese Colloid and Interface Society Conference (中華民國界面科學學會年會暨論文發表會)</a>.<br />
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Hongta</a> 
+                        is invited to give an invited lecture “Large Scale Self-Assembly of Colloidal Particles.”<br />
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a> 
+                        presents "刮刀塗佈抗紫外線透明薄膜" with a poster.<br /> 
+                    <a href="researchgroup/alumnigrad/zshuang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Zhe-Sheng</a> 
+                        presents "仿蛾眼抗反射塗佈" with a poster.<br />
+                    <a href="researchgroup/alumnigrad/kytsao.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Kuan-Yi</a> 
+                        presents "仿蠅眼彩色回歸反射塗佈" with a poster.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Cheng Kung University, Tainan, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014CCIS-1.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014CCIS-2.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014CCIS-3.jpg" width="400px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        July 11 at 10:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group hosts science camp for high school students.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group hosts science camp for high school students (高中科學研習營).
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Chung Hsing University, Taichung, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <img src="images/events/2014ScienceCamp.jpg" width="470px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        July 7 at 9:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group attends 2014 undergraduate project competition.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 4 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends <a href="http://www.engineer.nchu.edu.tw/chinese/student.php?cid=1" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        中興大學 102 學年度工學院大專生專題研究成果競賽.</a>.<br />
+                    <a href="researchgroup/graduate/twyang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Tung-Wei</a>, 
+                    <a href="researchgroup/undergraduate/lchsiang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Ling-Chen</a> and 
+                    <a href="researchgroup/undergraduate/cylin.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Cheng-Yu</a> 
+                        presents "Moth-eye Inspired Anti-reflective Coatings" with a poster.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Chung Hsing University, Taichung, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2014UnderProjComp-all.jpg" width="510px" style="border:solid 1px lightgrey;" />
+                    </a>
+                    <a href="#">
+                        <img src="images/events/2014UnderProjComp-lchsiang.jpg" width="240px" style="border:solid 1px lightgrey;" />
+                    </a>
+                    <a href="#">
+                        <img src="images/events/2014UnderProjComp-cylin.jpg" width="264px" style="border:solid 1px lightgrey;" />
+                    </a>
+                    <a href="#">
+                        <img src="images/events/2014UnderProjComp-twyang.jpg" width="425px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        June 9 at 10:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta throws a mentee party.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta throws a party for mentees.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        小倫敦, Taichung, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2014MenteeParty.jpg" width="435px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        June 5 at 6:00pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: CYLin wins NCHU Che Comp.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Congratulations to <a href="researchgroup/undergraduate/cylin.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Cheng-Yu</a> 
+                    winning NCHU Chemistry Competition (中興大學普通化學學科會考).
+                </div>
+                <div style="margin-left:56px; margin-top:5px;">
+                    <img src="images/events/2014cylin-CheComp.png" width="160px" style="border:solid 1px lightgrey;" />
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        May 7 at 5:00pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group cooperates with FIRDI.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group cooperates with <a href="http://www.firdi.org.tw/EngWeb/history.htm" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Food Industry Research and Development Institute (FIRDI) (財團法人食品工業發展研究所)</a>.
+                </div>
+                <div style="margin-left:56px; margin-top:5px;">
+                    <a href="http://www.firdi.org.tw/EngWeb/history.htm" target="_blank">
+                        <img src="images/events/FIRDI.png" width="475px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        March 7 at 9:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta throws a CNY party.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 2 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta throws a Chinese New Year party for research group.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        上閤屋, Taichung, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2014CNYParty-1.jpg" width="475px" style="border:solid 1px lightgrey;" />
+                    </a>
+                    <a href="#">
+                        <img src="images/events/2014CNYParty-2.jpg" width="475px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        January 18 at 11:30am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta throws a Christmas party.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta throws a Christmas party for mentees.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        天外天精緻火鍋, Taichung, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013XmasParty.png" width="475px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        December 18 at 6:30pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Sin-Jhe Wu joined Hongta's research group.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Sin-Jhe Wu</a> 
+                        (Mingdao High School) joined Hongta's research group.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/researchgroup/sjwu.jpg" width="380px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        November 30 at 9:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Chang-Yun and Kuan-Yi win Excellent Award of Poster Competition at 2013 TwiCheMeeting.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a> and 
+                    <a href="researchgroup/alumnigrad/kytsao.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Kuan-Yi</a> 
+                    win Excellent Award of Poster Competition (2013 化工年會壁報論文組競賽-材料在化工上的應用組 優勝) "可控晶格間距之膠體晶體於表面增強拉曼散射應用" 
+                    with a poster at <a href="http://www.twichemeeting.org.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        2013 台灣化學工程學會 60 週年年會暨國科會化學工程學門成果發表會</a>.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Taiwan University of Science and Technology, Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013TwiCheMeeting-cycai-award.png" width="475px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        November 23 at 5:00pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group attends 2013 TwiCheMeeting.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends <a href="http://www.twichemeeting.org.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        2013 台灣化學工程學會 60 週年年會暨國科會化學工程學門成果發表會</a>.<br />
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a>
+                        presents "可控晶格間距之膠體晶體於表面增強拉曼散射應用" with a poster.<br />
+                    <a href="researchgroup/alumnigrad/zshuang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Zhe-Sheng</a>
+                        presents "自組裝排列製備覆盆子結構超疏水塗佈" with a poster.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Taiwan University of Science and Technology, Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013TwiCheMeeting-cycai.jpg" width="325px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        November 23 at 8:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group cooperates with Maystar Reflex.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group cooperates with <a href="http://www.maystar.com.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Maystar Reflex (美視達反光科技有限公司)</a>.
+                </div>
+                <div style="margin-left:56px; margin-top:5px;">
+                    <a href="http://www.maystar.com.tw/" target="_blank">
+                        <img src="images/events/MaystarReflex.png" width="475px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        November 21 at 2:00pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Chang-Yun and Kuan-Yi win Excellent Award of Poster Competition at 2013 ISNST.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a> and 
+                    <a href="researchgroup/alumnigrad/kytsao.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Kuan-Yi</a> 
+                    win Excellent Award of Poster Competition "Fabrication of Nonclose-packed Colloidal Crystals with Tunable Lattice Spacing" with a poster 
+                    at <a href="http://chem.stust.edu.tw/en/node/Home" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">2013 International Symposium on Nano Science and Technology</a>.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        Southern Taiwan University of Science and Technology, Tainan, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013ISNST-cycai-award.png" width="475px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        November 16 at 5:00pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Zhe-Sheng and Kuan-Yi win Excellent Award of Poster Competition at 2013 ISNST.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    <a href="researchgroup/alumnigrad/zshuang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Zhe-Sheng</a> and 
+                    <a href="researchgroup/alumnigrad/kytsao.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Kuan-Yi</a> 
+                    win Excellent Award of Poster Competition "Self-assembled Superhydrophobic Coatings with Raspberry-like Structures" with a poster 
+                    at <a href="http://chem.stust.edu.tw/en/node/Home" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">2013 International Symposium on Nano Science and Technology</a>.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        Southern Taiwan University of Science and Technology, Tainan, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013ISNST-zshuang-award.jpg" width="475px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        November 16 at 5:00pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group attends 2013 ISNST.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 2 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends <a href="http://chem.stust.edu.tw/en/node/Home" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        2013 International Symposium on Nano Science and Technology</a>.<br />
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a>
+                        presents "Fabrication of Nonclose-packed Colloidal Crystals with tunable Lattice Spacing" with a poster.<br />
+                    <a href="researchgroup/alumnigrad/zshuang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Zhe-Sheng</a>
+                        presents "Self-assembly Superhydrophobic Coatings with Raspberry-like Structures" with a poster.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        Southern Taiwan University of Science and Technology, Tainan, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013ISNST-cycai.jpg" width="475px" style="border:solid 1px lightgrey;" />
+                    </a><br />
+                    <a href="#">
+                        <img src="images/events/2013ISNST-zshuang.jpg" width="475px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        November 15 at 9:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group attends ASAM-4.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends <a href="http://asam4.org/" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        The 4th Asian Symposium on Advanced Materials</a>.<br />
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a>
+                    presents "Fabrication of Nonclose-packed Colloidal Crystals with tunable Lattice Spacing" with a poster.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Taiwan University of Science and Technology, Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/ASAM-4.jpg" width="475px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        October 23 at 8:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Zhe-Sheng wins Outstanding Award at 2013 Nano Images in Taiwan.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 2 new photos.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    <a href="researchgroup/alumnigrad/zshuang.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Zhe-Sheng</a>
+                    wins Outstanding Award at 
+                    <a href="http://nano.ncku.edu.tw/image2013/" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        2013 Nano Images in Taiwan (2013 年台灣奈米影像暨奈米新詩創作競賽 - 掃描式電子顯微鏡影像組)</a>.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013NanoImages_Poster.png" width="241px" style="border:solid 1px lightgrey;" />
+                    </a>&nbsp;
+                    <a href="#">
+                        <img src="images/events/2013NanoImages.JPG" width="257px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        October 2 at 11:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group attends Ghosts' Festival on 15th day of the 7th lunar month.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends Ghosts' Festival on 15th day of the 7th lunar month.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Chung Hsing University, Taichung, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013GhostFestival.jpg" width="275px" style="border-style:none; border:0px;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        August 21 at 2:00pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group throws a welcome party.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group throws a welcome party.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        鮮友火鍋, Taichung, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013WelcomeParty.jpg" width="475px" style="border-style:none; border:0px;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        August 1 at 6:30pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Chang-Yun wins Outstanding Poster Award with a poster at 2013 CCIS.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:normal 13px arial">Chang-Yun</a>
+                    wins Outstanding Poster Award (傑出海報獎) "可控晶格間距之單層非連續性堆積膠體晶體之製備" with a poster at 
+                    <a href="http://myweb.ncku.edu.tw/~n38981020/interface2013/index.htm" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        2013 Chinese Colloid and Interface Society Conference (中華民國界面科學學會年會暨論文發表會)</a>.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Taiwan University, Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013CCIS-cycai-2.jpg" width="475px" style="border:solid 1px lightgrey;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        July 26 at 8:00pm<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Hongta's research group attends 2013 CCIS.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Hongta Yang</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Hongta's research group attends <a href="http://myweb.ncku.edu.tw/~n38981020/interface2013/index.htm" target="_blank" style="text-decoration:none; color:#3B5998; font:normal 13px arial">2013 Chinese Colloid and Interface Society Conference (中華民國界面科學學會年會暨論文發表會)</a>.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Taiwan University, Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        July 12 at 10:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Chang-Yun presents with a poster.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="researchgroup/alumnigrad/cycai.html"><img src="images/researchgroup/cycai.jpg" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="researchgroup/alumnigrad/cycai.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Chang-Yun Cai</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Chang-Yun presents "可控晶格間距之單層非連續性堆積膠體晶體之製備" with a poster.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Taiwan University, Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013CCIS-1.jpg" width="475px" style="border-style:none; border:0px;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        July 12 at 10:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Zhe-Sheng presents with a poster.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="researchgroup/alumnigrad/zshuang.html"><img src="images/researchgroup/zshuang.jpg" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="researchgroup/alumnigrad/zshuang.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Zhe-Sheng Huang</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-5px; color:black; font:normal 13px arial;">
+                    Zhe-Sheng presents "自組裝排列製備超疏水性仿生材料" with a poster.
+                </div>
+                <div style="margin-left:56px; margin-top:5px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Taiwan University, Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013CCIS-2.jpg" width="475px" style="border-style:none; border:0px;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        July 12 at 10:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+
+                <!--Body-Center: News: Kuan-Yi with a poster.-->
+                <div style="margin-left:5px; margin-top:5px; float:left;">
+                    <a href="researchgroup/alumnigrad/kytsao.html"><img src="images/researchgroup/kytsao.jpg" width="40px" height="40px" style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-top:6px; float:left;">
+                    <a href="researchgroup/alumnigrad/kytsao.html" style="text-decoration:none; color:#3B5998; font:bolder 13px arial;">Kuan-Yi Tsao</a>
+                </div>
+                <div style="padding-left:6px; margin-top:8px; float:left; color:#808080; font:normal 13px arial;">
+                    added 1 new photo.
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-10px; color:#808080; font:normal 13px arial;">
+                    — at <a href="#" style="text-decoration:none; color:#3B5998; font:normal 13px arial">
+                        National Taiwan University, Taipei, Taiwan.</a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-30px;">
+                    <a href="#">
+                        <img src="images/events/2013CCIS-3.jpg" width="475px" style="border-style:none; border:0px;" />
+                    </a>
+                </div><br /><br />
+                <div style="margin-left:56px; margin-top:-35px;">
+                    <a href="#" style="text-decoration:none; color:#8693CD; font:normal 11px arial; float:left;">
+                        Like<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Comment<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                        Share<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </a>
+                    <span style="color:#B1B1B1; font:normal 11px arial; float:left;">
+                        July 12 at 10:00am<sup style="font-size:16px;">&nbsp;.&nbsp;</sup>
+                    </span>
+                    <div style="float:left; padding-top:3px;">
+                        <a href="#"><img src="images/icons/public.png" style="border-style:none; border:0px;" /></a>
+                    </div>
+                </div><br /><br /><br />
+            </div>
+        </div>
+
+        <!--Body-Right-->
+        <div id="divBodyRight" style="height:100%; min-height:21100px; float:right; padding-top:20px; padding-left:20px; border-right:solid 1px #D3D3D3;">
+            <!--Body-Right: Sponsored-->
+            <div id="divBodyRightSponsored" style="font:bolder 12px arial; color:#666666; float:left; padding-top:1px;">
+                Sponsored
+            </div>
+            <div id="divBodyRightSponsoredIcon" style="padding-left:2px; float:left;">
+                <img src="images/icons/sponsored_white.png" style="border-style:none; border:0px;" />
+            </div><br />
+            <div style="border-bottom:solid 1px #E2E2E2; width:260px; margin-top:3px;"></div>
+
+            <!--Body-Right: Sponsored: National Science Council-->
+            <div style="margin-top:15px;">
+                <a href="http://www.nsc.gov.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    National Science Council
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.nsc.gov.tw/" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.nsc.gov.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.nsc.gov.tw/" target="_blank">
+                    <img src="images/logos/NationalScienceCouncil.jpg" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+
+            <!--Body-Right: Sponsored: Maystar Reflex-->
+            <div style="margin-top:15px;">
+                <a href="http://www.maystar.com.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Maystar Reflex
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.maystar.com.tw/" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.maystar.com.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.maystar.com.tw/" target="_blank">
+                    <img src="images/logos/MaystarReflex.png" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+
+            <!--Body-Right: Sponsored: FIRDI-->
+            <div style="margin-top:15px;">
+                <a href="http://www.firdi.org.tw/EngWeb/history.htm" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Food Industry R & D Institute
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.firdi.org.tw/EngWeb/history.htm" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.firdi.org.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.firdi.org.tw/EngWeb/history.htm" target="_blank">
+                    <img src="images/logos/FIRDI.png" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+			
+			<!--Body-Right: Sponsored: ITRI-->
+            <div style="margin-top:15px;">
+                <a href="https://www.itri.org.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Industrial Technology Research Institute
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="https://www.itri.org.tw/" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.itri.org.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="https://www.itri.org.tw/" target="_blank">
+                    <img src="images/logos/ITRI.png" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+			
+			<!--Body-Right: Sponsored: LARGAN-->
+            <div style="margin-top:15px;">
+                <a href="http://www.largan.com.tw/index.php" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Largan Precision Co.,Ltd.
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.largan.com.tw/index.php" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.largan.com.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.largan.com.tw/index.php" target="_blank">
+                    <img src="images/logos/LARGAN.jpg" width="130px" height="50px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

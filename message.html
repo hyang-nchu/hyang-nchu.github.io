@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Hongta Yang</title>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    <link rel="stylesheet" type="text/css" href="fatsbook.css">
+</head>
+<body>
+    <!--Header-->
+    <div class="header">
+        <!--Header-Left-->
+        <div id="divHeaderLogo" style="padding-left:30px; padding-top:7px; float:left;">
+            <a href="index.html" style="text-decoration:none; color:white; font:bolder 22px verdana;">fatsbook</a>
+        </div>
+        <div id="divHeaderRequests" style="float:left; padding-left:12px; padding-top:10px;">
+            <a href="#"><img src="images/icons/requests.png" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divHeaderMessages" style="float:left; padding-left:5px; padding-top:10px;">
+            <a href="#"><img src="images/icons/messages.png" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divHeaderUpdates" style="float:left; padding-left:5px; padding-top:10px;">
+            <a href="#"><img src="images/icons/updates.png" style="border-style:none; border:0px;" /></a>
+        </div>
+
+        <!--Header-Center-->
+        <input id="txtSearch" type="text" style="margin-left:26px; margin-top:9px; width:350px; padding:2px 0px 2px 3px; 
+                                                 font:normal 11px arial; color:#777777; float:left;" />
+        <a href="javascript:search();"><img src="images/icons/search.png" style="float:left; margin-top:9px; border:0px; border-style:none;" /></a>
+
+        <!--Header-Right-->
+        <div id="divHeaderTools" style="margin-right:15px; padding-top:10px; float:right;">
+            <a href="#"><img src="images/icons/tools.png" width="24px" height="25px" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divBar3" style="padding-right:1px; padding-top:13px; float:right; color:#526DA4; font:normal 16px arial;">|</div>
+        <div id="divHeaderLogout" style="padding-right:1px; padding-top:10px; float:right;">
+            <a href="#"><img src="images/icons/logout.png" width="25px" height="25px" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divBar2" style="padding-right:2px; padding-top:13px; float:right; color:#526DA4; font:normal 16px arial;">|</div>
+        <div id="divHeaderHome" style="padding-right:8px; padding-top:12px; float:right;">
+            <a href="index.html" style="text-decoration:none; color:white; font:bolder 12px arial;">Home</a>
+        </div>
+        <div id="divBar1" style="padding-right:8px; padding-top:13px; float:right; color:#526DA4; font:normal 16px arial;">|</div>
+        <div id="divHeaderName" style="padding-right:8px; padding-top:12px; float:right;">
+            <a href="hyang.html" style="text-decoration:none; color:white; font:bolder 12px arial;">Hongta Yang</a>
+        </div>
+        <div id="divHeaderProfile" style="padding-right:8px; padding-top:12px; float:right;">
+            <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="22px" height="22px" style="border-style:none; border:0px;" /></a>
+        </div>
+    </div>
+
+    <!--Body-->
+    <div id="divBody" style="border-top:solid 1px #D3D3D3; width:100%; padding-top:38px;">
+        <!--Body-Left-->
+        <div class="bodyLeft" style="border-left:solid 1px #D3D3D3; padding-left:10px; width:300px;">
+            <div style="position:fixed;">
+                <div style="float:left;">
+                    <a href="message.html" style="text-decoration:none; color:#333333; font:bold 12px verdana;">Inbox</a>
+                </div>
+                <div style="float:left; margin-left:10px;">
+                    <a href="#" style="text-decoration:none; color:#BCAAB1; font:normal 12px verdana;">Other</a>
+                </div>
+
+                <div style="float:left; margin-left:150px;">
+                    <a href="#" style="text-decoration:none; color:#BCAAB1; font:normal 12px verdana;">More</a>
+                    <a href="#"><img src="images/icons/sort.png" height="12px" style="border-style:none; border:0px;" /></a>
+                </div>
+            </div>
+
+            <input id="txtMsgSearch" type="text" style="margin-top:40px; width:275px; height:16px; padding:2px 0px 2px 5px; 
+                font:normal 11px arial; color:#777777; float:left; border:solid 1px #A6A6A6;" />
+            <a href="javascript:messageSearch();"><img src="images/icons/search.png" width="21px"
+                style="float:left; margin-top:40px; margin-left:-20px; border:solid 1px #A6A6A6;" /></a>
+
+            <div style="cursor:pointer; margin-top:85px; margin-left:-10px; background-color:#6D84B4;
+                    border-top:solid 1px #4E5D7B; border-bottom:solid 1px #4E5D7B; width:310px; height:76px;">
+                <div style="float:left; padding-left:13px; padding-top:8px;">
+                    <img src="images/photos/hyang-thumbnail.JPG" width="60px" height="60px" style="border-style:none; border:0px;" />
+                </div>
+                <div style="padding-top:18px; padding-left:84px; color:white; font:bold 13px arial;">
+                    Hongta Yang
+                    <span style="font:normal 11px verdana; padding-left:95px;">Mon</span>
+                </div>
+                <div style="padding-top:7px; padding-left:84px; color:white; font:normal 11px verdana;">
+                    Welcome to visit our lab... 
+                </div>
+            </div>
+        </div>
+
+        <!--Body-Center-->
+        <div class="bodyCenter">
+            <div style="position:fixed;">
+                <div style="float:left;">
+                    <a href="hyang.html" style="text-decoration:none; color:#333333; font:bolder 16px verdana;">Hongta Yang</a>
+                </div>
+
+                <table cellspacing="0" cellpadding="0px" style="margin-left:350px; margin-top:3px;">
+                    <tr><td style="padding-top:2px; border:solid 1px #A6A6A6;">
+                        <div style="float:left; cursor:pointer; padding-left:3px; padding-right:3px;">
+                            <img src="images/icons/plus.png" style="border-style:none; border:0px;" />
+                        </div>
+                        <div style="float:left; cursor:pointer; color:#333333; font:bolder 11px verdana; padding-right:6px;">New Message</div>
+                        <div style="float:left; cursor:pointer; border-left:solid 1px #A4A4A4; padding-left:3px; padding-right:3px;">
+                            <img src="images/icons/gear.png" style="border-style:none; border:0px;" />
+                        </div>
+                        <div style="float:left; cursor:pointer; color:#333333; font:bolder 11px verdana;">Actions</div>
+                        <div style="float:left; cursor:pointer; padding-left:3px; padding-right:3px;">
+                            <img src="images/icons/messagedropdown.png" style="border-style:none; border:0px;" />
+                        </div>
+                        <div style="float:left; cursor:pointer; border-left:solid 1px #A4A4A4; padding-left:3px; padding-right:3px;">
+                            <img src="images/icons/messagesearch.png" style="border-style:none; border:0px;" />
+                        </div>
+                    </td></tr>
+                </table>
+            </div>
+
+            <div style="margin-top:45px;">
+                <div style="margin-left:5px; float:left;">
+                    <a href="hyang.html"><img src="images/photos/hyang-thumbnail.JPG" width="40px" height="40px" 
+                        style="border-style:none; border:0px;" /></a>
+                </div>
+                <div style="padding-left:10px; margin-left:45px;">
+                    <a href="hyang.html" style="text-decoration:none; color:#3B59B1; font:bolder 13px arial;">Hongta Yang</a>
+                </div>
+                <div style="padding-left:10px; margin-top:5px; float:left; color:#333333; font:normal 13px arial;">
+                    Welcome to visit our laboratory and join our group!
+                </div><br /><br />
+            </div>
+
+            <div>
+                <input id="txtReply" type="text" style="margin-top:30px; margin-left:5px; width:540px; line-height:20px; 
+                    padding:8px 8px 100px 8px; font:normal 12px verdana; color:#777777; float:left; 
+                    border:solid 1px #A6A6A6;" disabled="disabled" /><br />
+                <div style="cursor:pointer; margin-top:145px; margin-left:7px;">
+                    <img src="images/icons/attachment.png" style="float:left; border-style:none; border:0px;" />
+                    <div style="float:left; cursor:pointer; color:#777777; font:normal 10px verdana; padding-left:2px;">Add Files</div>
+                    <img src="images/icons/attachPhoto.png" style="float:left; border-style:none; border:0px; padding-left:15px;" />
+                    <div style="float:left; cursor:pointer; color:#777777; font:normal 10px verdana; padding-left:2px;">Add Photos</div>
+                    <div style="float:left; cursor:pointer; color:white; background-color:#6D84B4; margin-left:325px;
+                        font:bolder 12px verdana; padding:4px 8px 4px 8px; border:solid 1px #4E5D7B;" 
+                        onclick:"javascript:messageSearch();">Reply</div>
+                </div>
+            </div>
+        </div>
+
+        <!--Body-Right-->
+        <div class="bodyRight">
+            <!--Body-Right: Sponsored-->
+            <div id="divBodyRightSponsored" style="font:bolder 12px arial; color:#666666; float:left; padding-top:1px;">
+                Sponsored
+            </div>
+            <div id="divBodyRightSponsoredIcon" style="padding-left:2px; float:left;">
+                <img src="images/icons/sponsored_white.png" style="border-style:none; border:0px;" />
+            </div><br />
+            <div style="border-bottom:solid 1px #E2E2E2; width:260px; margin-top:3px;"></div>
+
+            <!--Body-Right: Sponsored: National Science Council-->
+            <div style="margin-top:15px;">
+                <a href="http://www.nsc.gov.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    National Science Council
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.nsc.gov.tw/" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.nsc.gov.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.nsc.gov.tw/" target="_blank">
+                    <img src="images/logos/NationalScienceCouncil.jpg" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+
+            <!--Body-Right: Sponsored: Maystar Reflex-->
+            <div style="margin-top:15px;">
+                <a href="http://www.maystar.com.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Maystar Reflex
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.maystar.com.tw/" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.maystar.com.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.maystar.com.tw/" target="_blank">
+                    <img src="images/logos/MaystarReflex.png" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+
+            <!--Body-Right: Sponsored: FIRDI-->
+            <div style="margin-top:15px;">
+                <a href="http://www.firdi.org.tw/EngWeb/history.htm" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Food Industry R & D Institute
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.firdi.org.tw/EngWeb/history.htm" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.firdi.org.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.firdi.org.tw/EngWeb/history.htm" target="_blank">
+                    <img src="images/logos/FIRDI.png" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+			
+			<!--Body-Right: Sponsored: ITRI-->
+            <div style="margin-top:15px;">
+                <a href="https://www.itri.org.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Industrial Technology Research Institute
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="https://www.itri.org.tw/" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.itri.org.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="https://www.itri.org.tw/" target="_blank">
+                    <img src="images/logos/ITRI.png" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+			
+			<!--Body-Right: Sponsored: LARGAN-->
+            <div style="margin-top:15px;">
+                <a href="http://www.largan.com.tw/index.php" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Largan Precision Co.,Ltd.
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.largan.com.tw/index.php" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.largan.com.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.largan.com.tw/index.php" target="_blank">
+                    <img src="images/logos/LARGAN.jpg" width="130px" height="50px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="message.js"></script>
+</body>
+</html>

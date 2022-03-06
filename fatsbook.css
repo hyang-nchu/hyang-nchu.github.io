@@ -1,0 +1,55 @@
+﻿body {
+    margin:0px; 
+    padding:0px; 
+    overflow:scroll; 
+    width:1250px; 
+    height:100%;
+}
+
+.header {
+    background-color:#3B5998; 
+    height:38px; 
+    width:100%; 
+    border-bottom:solid 1px #133783; 
+    position:fixed;
+}
+
+.bodyLeft {
+    height:100%; 
+    min-height:1024px; 
+    width:220px; 
+    border-right:solid 1px #D3D3D3; 
+    float:left; 
+    padding-top:20px; 
+    margin-left:30px;
+}
+
+.bodyCenter {
+    height:100%; 
+    min-height:1024px; 
+    width:600px; 
+    float:left; 
+    padding-top:20px; 
+    padding-left:20px;
+}
+
+.bodyRight {
+    height:100%; 
+    min-height:1024px; 
+    float:right; 
+    padding-top:20px; 
+    padding-left:20px; 
+    border-right:solid 1px #D3D3D3;
+}
+
+.gradient-background
+{
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 73%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(73%,#cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 73%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 73%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 73%); /* IE10+ */
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 73%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
