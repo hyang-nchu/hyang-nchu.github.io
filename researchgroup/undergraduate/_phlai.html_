@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Po-Hsin Lai</title>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    <link href="../../fatsbook.css" type="text/css" rel="stylesheet" />
+</head>
+<body style="margin:0px; padding:0px; overflow:scroll; width:1101px; height:100%;">
+    <!--Header-->
+    <div id="divHeader" style="background-color:#3B5998; height:38px; width:100%; border-bottom:solid 1px #133783; position:fixed;">
+        <!--Header-Left-->
+        <div id="divHeaderLogo" style="padding-left:30px; padding-top:7px; float:left;">
+            <a href="../../index.html" style="text-decoration:none; color:white; font:bolder 22px verdana;">fatsbook</a>
+        </div>
+        <div id="divHeaderRequests" style="float:left; padding-left:12px; padding-top:10px;">
+            <a href="#"><img src="../../images/icons/requests.png" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divHeaderMessages" style="float:left; padding-left:5px; padding-top:10px;">
+            <a href="#"><img src="../../images/icons/messages.png" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divHeaderUpdates" style="float:left; padding-left:5px; padding-top:10px;">
+            <a href="#"><img src="../../images/icons/updates.png" style="border-style:none; border:0px;" /></a>
+        </div>
+
+        <!--Header-Center-->
+        <input id="txtSearch" type="text" style="margin-left:26px; margin-top:9px; width:350px; padding:2px 0px 2px 3px; 
+                                                 font:normal 11px arial; color:#777777; float:left;" />
+        <a href="javascript:search();"><img src="../../images/icons/search.png" style="float:left; margin-top:9px; border:0px; border-style:none;" /></a>
+
+        <!--Header-Right-->
+        <div id="divHeaderTools" style="margin-right:15px; padding-top:10px; float:right;">
+            <a href="#"><img src="../../images/icons/tools.png" width="24px" height="25px" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divBar3" style="padding-right:1px; padding-top:13px; float:right; color:#526DA4; font:normal 16px arial;">|</div>
+        <div id="divHeaderLogout" style="padding-right:1px; padding-top:10px; float:right;">
+            <a href="#"><img src="../../images/icons/logout.png" width="25px" height="25px" style="border-style:none; border:0px;" /></a>
+        </div>
+        <div id="divBar2" style="padding-right:2px; padding-top:13px; float:right; color:#526DA4; font:normal 16px arial;">|</div>
+        <div id="divHeaderHome" style="padding-right:8px; padding-top:12px; float:right;">
+            <a href="../../index.html" style="text-decoration:none; color:white; font:bolder 12px arial;">Home</a>
+        </div>
+        <div id="divBar1" style="padding-right:8px; padding-top:13px; float:right; color:#526DA4; font:normal 16px arial;">|</div>
+        <div id="divHeaderName" style="padding-right:8px; padding-top:12px; float:right;">
+            <a href="phlai.html" style="text-decoration:none; color:white; font:bolder 12px arial;">Po-Hsin Lai</a>
+        </div>
+        <div id="divHeaderProfile" style="padding-right:8px; padding-top:12px; float:right;">
+            <a href="phlai.html"><img src="../../images/researchgroup/phlai.JPG" width="22px" height="22px" style="border-style:none; border:0px;" /></a>
+        </div>
+    </div>
+
+    <!--Body-->
+    <div id="divBody" style="border-top:solid 1px #D3D3D3; width:100%; height:100%; padding-top:38px;">
+        <!--Body-Left-->
+        <div id="divBodyLeft" style="height:100%; min-height:1560px; background-color:#E7EBF2; width:820px; float:left;">
+            <!--Body-Left: Profile-->
+            <div id="div2" style="height:430px; margin-left:40px; border-left:solid 1px #C4CDE0; 
+                                                border-bottom:solid 1px #C4CDE0; background-color:white;">
+                <div id="div3" class="gradient-background" style="float:left; margin-bottom:10px; width:820px; text-align:center;">
+                    <a href="#">
+                        <img src="../../images/researchgroup/phlai.JPG" height="310px"
+                            style="border-style:none; border:0px;" />
+                    </a>
+                </div>
+                <div id="div4" style="margin-left:40px; padding-top:100px; font:bolder 20px verdana;">Po-Hsin Lai (賴柏昕)</div>
+                <div style="margin-left:50px; margin-top:40px;">&nbsp;</div>
+            </div>
+
+            <!--Body-Left: Education-->
+            <div id="divBodyLeftAwards" style="height:150px; margin-left:40px; margin-top:20px; border-top:solid 1px #C4CDE0;
+                border-left:solid 1px #C4CDE0;  border-bottom:solid 1px #C4CDE0; background-color:white;">
+                <div style="padding-left:30px; padding-top:20px; float:left;"><img src="../../images/icons/awards.png" style="border-style:none; border:0px;" /></div>
+                <div style="padding-left:10px; padding-top:28px; float:left; font:bolder 16px verdana;">Education</div><br /><br />
+                <ul style="padding-left:73px; padding-top:10px;">
+                    <li>B.S. in Department of Chemical Engineering, National Chung Hsing University, 2013-Present.</li>
+                </ul>
+            </div>
+
+            <!--Body-Left: Research Interests-->
+            <div id="div1" style="height:150px; margin-left:40px; margin-top:20px; border-top:solid 1px #C4CDE0;
+                border-left:solid 1px #C4CDE0;  border-bottom:solid 1px #C4CDE0; background-color:white;">
+                <div style="padding-left:30px; padding-top:20px; float:left;"><img src="../../images/icons/patents.png" style="border-style:none; border:0px;" /></div>
+                <div style="padding-left:10px; padding-top:28px; float:left; font:bolder 16px verdana;">Research Interests</div><br /><br />
+                <ul style="padding-left:73px; padding-top:10px; padding-right:35px;">
+                    <li>Photonic Crystal-based Chemical Vapor Detectors</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Body-Right-->
+        <div id="divBodyRight" style="height:100%; min-height:1540px; float:right; padding-top:20px; 
+                                      background-color:#E7EBF2; padding-left:20px; border-left:solid 1px #C4CDE0;">
+            <!--Body-Right: Sponsored-->
+            <div id="divBodyRightSponsored" style="font:bolder 12px arial; color:#666666; float:left; padding-top:2px;">
+                Sponsored
+            </div>
+            <div id="divBodyRightSponsoredIcon" style="padding-left:2px; float:left;">
+                <img src="../../images/icons/sponsored_blue.png" style="border-style:none; border:0px;" />
+            </div><br />
+            <div style="border-bottom:solid 1px #C8D1E2; width:260px; margin-top:3px;"></div>
+
+            <!--Body-Right: Sponsored: National Science Council-->
+            <div style="margin-top:15px;">
+                <a href="http://www.nsc.gov.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    National Science Council
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.nsc.gov.tw/" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.nsc.gov.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.nsc.gov.tw/" target="_blank">
+                    <img src="../../images/logos/NationalScienceCouncil.jpg" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+
+            <!--Body-Right: Sponsored: Maystar Reflex-->
+            <div style="margin-top:15px;">
+                <a href="http://www.maystar.com.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Maystar Reflex
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.maystar.com.tw/" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.maystar.com.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.maystar.com.tw/" target="_blank">
+                    <img src="../../images/logos/MaystarReflex.png" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+
+            <!--Body-Right: Sponsored: FIRDI-->
+            <div style="margin-top:15px;">
+                <a href="http://www.firdi.org.tw/EngWeb/history.htm" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Food Industry R & D Institute
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.firdi.org.tw/EngWeb/history.htm" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.firdi.org.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.firdi.org.tw/EngWeb/history.htm" target="_blank">
+                    <img src="../../images/logos/FIRDI.png" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+			
+			<!--Body-Right: Sponsored: ITRI-->
+            <div style="margin-top:15px;">
+                <a href="https://www.itri.org.tw/" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Industrial Technology Research Institute
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="https://www.itri.org.tw/" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.itri.org.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="https://www.itri.org.tw/" target="_blank">
+                    <img src="../../images/logos/ITRI.png" width="80px" height="80px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+			
+			<!--Body-Right: Sponsored: LARGAN-->
+            <div style="margin-top:15px;">
+                <a href="http://www.largan.com.tw/index.php" target="_blank" style="text-decoration:none; color:#3B5998; font:bold 12px arial;">
+                    Largan Precision Co.,Ltd.
+                </a>
+            </div>
+            <div style="margin-top:-5px;">
+                <a href="http://www.largan.com.tw/index.php" target="_blank" style="text-decoration:none; color:#808080; font:normal 12px arial;">
+                    www.largan.com.tw
+                </a>
+            </div>
+            <div style="margin-top:8px;">
+                <a href="http://www.largan.com.tw/index.php" target="_blank">
+                    <img src="../../images/logos/LARGAN.jpg" width="130px" height="50px" style="border-style:none; border:0px;" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        //txtSearch------
+        document.getElementById("txtSearch").defaultValue = "Search for people, places and things";
+        document.getElementById("txtSearch").onclick = function () {
+            document.getElementById("txtSearch").style.color = "black";
+            document.getElementById("txtSearch").value = "";
+        }
+        document.getElementById("txtSearch").onblur = function () {
+            document.getElementById("txtSearch").style.color = "#777777";
+            document.getElementById("txtSearch").value = "Search for people, places and things";
+        }
+        document.getElementById("txtSearch").onkeypress = function (e) {
+            if (e.which == 10 || e.which == 13) //enter
+                document.getElementById("txtSearch").blur();
+        }
+
+        function search() {
+            document.getElementById("txtSearch").style.color = "#777777";
+            document.getElementById("txtSearch").value = "Search for people, places and things";
+        }
+    </script>
+</body>
+</html>
